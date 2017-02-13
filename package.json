@@ -1,6 +1,6 @@
 {
   "name": "fileserver",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -13,5 +13,18 @@
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "Simplest FileServer ever",
+  "main": "bin/www",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunklesToast/FileServer.git"
+  },
+  "author": "Tom Sacher <tomnik104@yahoo.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dunklesToast/FileServer/issues"
+  },
+  "homepage": "https://github.com/dunklesToast/FileServer#readme"
 }
